@@ -3,12 +3,12 @@
 var express = require('express');
 var mongo = require('mongodb');
 const mongoose = require('mongoose');
-const dotenv = require('dotenv');
+//const dotenv = require('dotenv');
 const bodyParser = require('body-parser');
 const dns = require('dns');
 var cors = require('cors');
 const url = require('url');
-dotenv.config();
+//dotenv.config();
 var app = express();
 
 // Basic Configuration 
